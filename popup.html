@@ -16,13 +16,12 @@
     <center><h2> DARN </h2></center>
     <center><button style = "background-color:#ffe6ff;"></button></center>
     <center><h4>Block spoilers from your favorite book, movie, game, or TV show!</h4></center>
-    <center><form>
+    <center><form onsubmit = "addList()">
       What should we look for?<br>
-      <input type="text" name="Media"><br>
+      <input type="text" id="userInput"><br>
     </form></center>
-    <ul>
-      <li class="closable">Click1 <span class="close">&nbsp;x&nbsp;</span></li>
-      <li class="closable">Click2 <span class="close">&nbsp;x&nbsp;</span></li>
+    <ul id="list">
+
     </ul>
     <script src="popup.js"></script>
   </body>
