@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "DARN",
+  "name": "DARN!",
   "version": "1.0",
   "description": "Block spoilers from your favorite books, games, movies, and TV shows!",
   "permissions": ["declarativeContent", "storage"],
