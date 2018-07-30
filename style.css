@@ -1,10 +1,12 @@
 
 html *{
-  background-color: white;
+  background-color:	#e3f2f3;
   font-family: sans-serif;
-  color: slateGray;
+  color:#376595;
 }
-
+h2 {
+  color: #ff5c5c;
+}
 body {
   min-width: 400px; /* your desired width */
   max-width: 100%;
@@ -15,11 +17,19 @@ ul {
     margin: 5px;
 }
 
+#userInput{
+    background-color:#ffffff;
+}
+
+#button{
+    background-color: #ff5c5c;
+    color:#e3f2f3; 
+}
 li {
     display: inline;
-    background: azure;
+    background:#ffffff;
     border: 1px solid #999;
     padding: 5px;
     cursor: pointer;
 }
-.close:hover {background: paleturquoise;}
+.close:hover {background:#ff5c5c;}
